@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/foto_fondo"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+
+    <EditText
+        android:id="@+id/etCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTitulo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginRight="76dp"
+        android:backgroundTint="@color/amarilloClaro"
+        android:ems="10"
+        android:hint="Correo"
+        android:inputType="textPersonName"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textColorHint="@android:color/white" />
+
+    <EditText
+        android:id="@+id/etCont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etCorreo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginRight="77dp"
+        android:backgroundTint="@color/amarilloClaro"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textColorHint="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnIniciarSesión"
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginBottom="140dp"
+        android:background="@drawable/boton_iniciarsesion"
+        android:text="Iniciar sesion"
+        android:textAlignment="center"
+        android:textColor="@color/amarilloClaro"
+        android:textStyle="bold"
+
+        />
+
+    <Button
+        android:id="@+id/btnRegistrarse"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginBottom="61dp"
+        android:background="@drawable/boton_redondeado"
+        android:onClick="Registrar"
+        android:text="¡Registrate!"
+        android:textAlignment="center"
+        android:textColor="@color/moradoOscuro"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="149dp"
+        android:layout_marginTop="126dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginRight="152dp"
+        android:text="Gpixel"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+</RelativeLayout>
